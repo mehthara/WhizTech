@@ -1,0 +1,289 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+h2{
+  
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.text-coral{
+  color: coral;
+}
+.bg-coral{
+background-color: coral;
+}
+.blue{
+  color: #446190;
+  font-weight: 900;
+}
+.bg-blue{
+  background-color: #446190;
+  color: #f4f4f4;
+}
+.font-raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.btn{
+  color:#f4f4f4;
+  background-color: coral;
+}
+.btn:hover{
+  background-color: #f4f4f4;
+  color: coral;
+}
+
+
+
+/*Header*/
+
+#header{
+  background-color: #446190;
+  padding:8px;
+  color: #fff;
+}
+
+#header a{
+  color: #fff;
+  text-decoration: none;
+}
+#header a:hover{
+  color: coral;
+  
+}
+/*Navbar */
+
+
+.navbar{
+  border-bottom: #446190 3px solid;
+	opacity: 0.8;
+}
+.navbar-brand img{
+  width: 200px;
+  min-height: 100%;
+}
+
+
+.nav-item a{
+text-decoration: none;
+color: #213452;
+font-size:16px;
+padding:10px;
+display: block;
+border-radius:5px;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+.nav-item a:hover{
+  
+  background-color: #fff;
+  color: coral;
+}
+/*Showcase Section*/
+#showcase{
+  min-height: 580px;
+  background: url('../images/showcase.jpg') no-repeat center center/cover;
+}
+
+#showcase .container{
+  background: #446190;
+  color: #f4f4f4;
+  opacity: 0.9;
+  padding: 160px 30px;
+  width: 70%;
+  max-height:580px;
+  text-align: center;
+}
+
+#showcase h1{
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 2em;
+  padding-bottom: 20px;
+}
+
+#showcase .btn{
+  
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom:30px;
+  
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+
+/*ABOUT*/
+#about .container-fluid{
+  background: #f4f4f4;
+}
+
+#about .padding-about{
+  padding: 30px 50px;
+}
+
+/*FEATURES*/
+#features{
+  background: url('../images/features.jpg') no-repeat center center/cover;
+  min-height:700px;
+  height: 100%
+}
+#features .dark-overlay{
+
+  position: absolute;
+	
+	width: 100%;
+	min-height: 700px;
+  background: rgba(255,255,255,0.7);
+}
+
+ h2{
+  
+  text-transform: uppercase;
+  font-weight: 800;
+}
+#features .col-md-3 h6{
+  font-weight: bold;
+}
+#features .padding-ft{
+  padding: 50px 40px;
+   
+}
+#features .col-md-8 p{
+  border-radius: 5px;
+  font-size:16px;
+  opacity: 0.8;
+  
+  
+}
+#features .first-row{
+  margin-top:150px;
+}
+
+#features .col-md-3{
+  
+  background-color: #446190;
+  /*border: #f4f4f4 1px solid;*/
+ 
+  
+  text-align: center;
+  font-size:14px;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.8;
+  
+}
+
+#features svg{
+  display: inline;
+}
+
+
+#features a{
+  color:#f4f4f4;
+  display: block;
+}
+#features  h6{
+  text-decoration: underline;
+}
+#features .col-md-3 p{
+margin-bottom: 5px;
+}
+#features a:hover{
+  padding:5px;
+  border-radius: 5px;
+  /*border: 1px solid coral;*/
+  text-decoration: none;
+  color: coral;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+
+/*PRODUCTS*/
+#products .col-md-6 h4{
+  padding-top:30px;
+  font-weight: 900;
+}
+/*
+#products svg{
+  background: #446190;
+	color: #fff;
+	padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}*/
+
+#products d-flex{
+  padding-top: 10px;;
+}
+
+#products a{
+  color: #446190;
+  cursor: pointer;
+  display: block;
+}
+#products a:hover{
+  color: coral;
+  text-decoration:none;
+}
+
+
+/*FOOTER*/
+#main-footer{
+  border-top: #446190 solid 3px;
+}
+
+#main-footer a{
+  display: block;
+  color: #446190;
+  line-height: 2.8em;
+  cursor: pointer;
+}
+.about-footer{
+
+  background: url('../images/sydney.jpg') no-repeat center center/cover;
+ 
+}
+
+#main-footer h4{
+  text-decoration: underline;
+}
+
+.services-footer{
+  background: url('../images/dubai.jpg') no-repeat center center/cover;
+  
+}
+
+.sales-footer{
+  background: url('../images/Cochin.jpg') no-repeat center center/cover;
+ 
+}
+
+.support-footer{
+  background: url('../images/singapore.jpg') no-repeat center center/cover;
+ 
+}
+
+
+
+/*#main-footer .white-overlay{
+  position:absolute;
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+  
+}*/
+
+/*#main-footer .col-md-3{
+  background : rgba(255,127,80,0.8);
+  color: #446190;
+}*/
+
+footer{
+text-align: center;
+background: #446190;
+color: #fff;
+padding: 10px;
+}
