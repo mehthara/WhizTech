@@ -14,11 +14,11 @@ h2{
 background-color: coral;
 }
 .blue{
-  color: #446190;
+  color: #22276E;
   font-weight: 900;
 }
 .bg-blue{
-  background-color: #446190;
+  background-color: #22276E;
   color: #f4f4f4;
 }
 .font-raleway{
@@ -38,7 +38,7 @@ background-color: coral;
 /*Header*/
 
 #header{
-  background-color: #446190;
+  background-color: #22276E;
   padding:8px;
   color: #fff;
 }
@@ -55,7 +55,7 @@ background-color: coral;
 
 
 .navbar{
-  border-bottom: #446190 3px solid;
+  border-bottom: #22276E 3px solid;
 	opacity: 0.8;
 }
 .navbar-brand img{
@@ -87,7 +87,7 @@ text-transform: uppercase;
 }
 
 #showcase .container{
-  background: #446190;
+  background: #22276E;
   color: #f4f4f4;
   opacity: 0.9;
   padding: 160px 30px;
@@ -164,7 +164,7 @@ text-transform: uppercase;
 
 #features .col-md-3{
   
-  background-color: #446190;
+  background-color: #22276E;
   /*border: #f4f4f4 1px solid;*/
  
   
@@ -221,7 +221,7 @@ margin-bottom: 5px;
 }
 
 #products a{
-  color: #446190;
+  color: #22276E;
   cursor: pointer;
   display: block;
 }
@@ -233,12 +233,12 @@ margin-bottom: 5px;
 
 /*FOOTER*/
 #main-footer{
-  border-top: #446190 solid 3px;
+  border-top: #22276E solid 3px;
 }
 
 #main-footer a{
   display: block;
-  color: #446190;
+  color: #22276E;
   line-height: 2.8em;
   cursor: pointer;
 }
@@ -283,7 +283,7 @@ margin-bottom: 5px;
 
 footer{
 text-align: center;
-background: #446190;
+background: #22276E;
 color: #fff;
 padding: 10px;
 }
